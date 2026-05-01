@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+._*
+
+# Credentials (never commit these)
+*.pat
+*.token
+*credential*
+*secret*
+
+# Workspace (temporary, not backed up)
+99_workspace/
+
+# Large binary files (consider git-lfs if needed)
+# *.pdf
+# *.docx
+
+# IDE
+.vscode/
+.idea/
